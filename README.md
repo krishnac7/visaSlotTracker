@@ -1,5 +1,5 @@
 ## Primary Features
-* Predictive Analysis: Uses simple linear regression to predict future visa wait times. (timeseries analysis felt like an overkill)
+* Predictive Analysis: Uses simple linear regression to predict future visa wait times. (timeseries analysis felt like an overkill especially if running on smaller servers)
 * Automated Data Fetching: Scrapes visa wait times from the U.S. State Department's website.
 * Data Visualization: Generates a combined graph of visa wait times for multiple cities.
 * Email Notifications: Sends periodic email updates with the latest visa wait times and graphs.
