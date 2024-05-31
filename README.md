@@ -7,6 +7,9 @@
 
 01:50 AM, 02:30 AM, 09:00 AM, 05:00 PM, 10:00 PM
 
+## Data Source
+The visa wait times are scraped from the U.S. State Department's [Global Visa Wait Times page](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/global-visa-wait-times.html).
+
 # Installation
 * Clone the repository:
 
