@@ -1,0 +1,11 @@
+flask
+requests
+beautifulsoup4
+pandas
+apscheduler
+secure-smtplib
+python-dotenv
+matplotlib
+scikit-learn
+numpy
+pytz

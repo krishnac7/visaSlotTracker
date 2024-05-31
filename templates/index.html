@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Visa Wait Times</title>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="jumbotron mt-4">
+            <h1 class="display-4">Visa Wait Times</h1>
+            <p class="lead">{{ warning_message|safe }}</p>
+            <p>Last updated: {{ last_updated }}</p>
+        </div>
+        <div class="table-responsive">
+            {{ tables[0]|safe }}
+        </div>
+        <div class="mt-5">
+            <h2>Visa Wait Time Trends</h2>
+            <img src="data:image/png;base64,{{ img_data }}" alt="Combined Graph for All Cities" class="img-fluid">
+        </div>
+    </div>
+    <footer class="mt-5 text-center">
+        <p>Fed up with visa hassles? Join the club! <a href="mailto:kckckrishnachaitanya7@gmail.com">subscribe</a> to get periodical updates or to vent your frustrations.</p>
+    </footer>
+    
+</body>
+</html>

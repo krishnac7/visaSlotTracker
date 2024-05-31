@@ -1,0 +1,13 @@
+.data {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.data th, .data td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.data th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
