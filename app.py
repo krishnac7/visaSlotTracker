@@ -131,14 +131,14 @@ def generate_combined_graph():
     
     return img_data
 
-called = 0
+
 
 def send_email_update(recipients):
-    global called
+    
     visa_wait_times_df, last_updated = fetch_visa_wait_times()
     img_data = generate_combined_graph()
-    called += 1
-    print("called {}".format(called))
+    
+    
     
     # Email content
     subject = "Visa Wait Times Update"
